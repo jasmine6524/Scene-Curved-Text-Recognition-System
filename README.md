@@ -1,33 +1,6 @@
 ## An Assistance System for the Visually Impaired with Curved Text Detection and Recognition
 
-### PART I: DBNet
-
-#### User Guide
-
-##### Step 1 
-
-下载models/DBNet_models中的模型（下载地址: 链接: https://pan.baidu.com/s/1rApX0GnLr_qX8t92uDVyIg 提取码: y3sy），然后：
-
-1. 将best_model.pth.tar放到DBNet/checkpoints/目录下
-2. 将model_finetune.pth放到DBNet/tools/outputs/finetune/目录下
-
-##### Step 2
-
-- 在终端将当前目录切换到DBNet中，运行
-
-```python
-python glass_recognition_curve_text.py
-#使用便携式设备上的摄像头进行弯曲文字识别
-```
-
-或者
-
-```python
-python computer_camera_recoginiton_curve_text.py
-#使用个人计算机上的摄像头进行弯曲文字识别
-```
-
-### PART II: PGNet
+### PART I: PGNet
 
 #### Download
 
